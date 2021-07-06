@@ -48,13 +48,13 @@ $tls = [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]:
 #echo "Download BitTorrent_7.10.5.46011.exe"
 #BitTorrent_7.10.5.46011.exe
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/BitTorrent_7.10.5.46011.exe'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/BitTorrent_7.10.5.46011.exe'
 $destination = 'c:\install\BitTorrent_7.10.5.46011.exe'
 Invoke-RestMethod -Uri $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download uTorrent_LAA"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/uTorrent_355_46036_LAA_.exe'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/uTorrent_355_46036_LAA_.exe'
 $destination = 'c:\install\uTorrent.exe'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
@@ -65,18 +65,18 @@ Start-Sleep -Seconds 1
 #echo "Download Firefox Installer.exe"
 echo "Download wallet"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/bttAPI_duble.exe'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/bttAPI_duble.exe'
 $destination = 'c:\install\bttAPI_duble.exe'
 Invoke-RestMethod -Uri $source -OutFile $destination
 #echo "Download Firefox Installer.exe"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/Firefox.exe'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/Firefox.exe'
 $destination = 'c:\install\Firefox.exe'
 Invoke-RestMethod -Uri $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download memreduct-3.3.5-setup.exe"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/memreduct.zip'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/memreduct.zip'
 $destination = 'c:\install\memreduct.zip'
 Invoke-RestMethod -Uri $source -OutFile $destination
 Start-Sleep -Seconds 1
@@ -94,25 +94,25 @@ Invoke-RestMethod -Uri $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download qBittorrent.ini"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/qBittorrent.ini'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/qBittorrent.ini'
 $destination = 'c:\install\qBittorrent.ini'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download qBittorent-data.ini"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/qBittorrent-data.ini'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/qBittorrent-data.ini'
 $destination = 'c:\install\qBittorrent-data.ini'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download settings.dat"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/settings.dat'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/settings.dat'
 $destination = 'c:\install\settings.dat'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download settings.dat.old"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/settings.dat.old'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/settings.dat.old'
 $destination = 'c:\install\settings.dat.old'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
@@ -124,72 +124,72 @@ Start-Sleep -Seconds 1
 #Start-Sleep -Seconds 1
 #echo "Download download 7z.exe"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/7z.exe'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/7z.exe'
 $destination = 'c:\install\7z.exe'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download download 7z.dll"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/7z.dll'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/7z.dll'
 $destination = 'c:\install\7z.dll'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download torrent-manager-main 0.0.5.7z"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/SCRIPT_BITTORRENT0.0.5.zip'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/SCRIPT_BITTORRENT0.0.5.zip'
 $destination = 'c:\install\SCRIPT_BITTORRENT0.0.5.zip'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download btt_settings"
 $tls
-$source = 'https://github.com/R0ckNRolla/btt_setting/raw/main/BitTorrentHelper.zip'
+$source = 'https://github.com/akkaorig/btt_setting/raw/main/BitTorrentHelper.zip'
 $destination = 'c:\install\BitTorrentHelper.zip'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download disable_firewall"
 #$tls
-#$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/df.bat'
+#$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/df.bat'
 #$destination = 'c:\install\df.bat'
 #Invoke-WebRequest $source -OutFile $destination
 #Start-Sleep -Seconds 1
 ##echo "Download enable_firewall"
 #$tls
-#$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/enable_firewall.bat'
+#$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/enable_firewall.bat'
 #$destination = 'c:\install\enable_firewall.bat'
 #Start-Sleep -Seconds 1
 #echo "Download script_autoran_after_reboot"
 $tls
-$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/script_autoran.bat'
+$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/script_autoran.bat'
 $destination = 'C:\Users\administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\script_autoran.bat'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download memreduct_setting 5 min"
 $tls
-$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/memreduct5min.ini'
+$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/memreduct5min.ini'
 $destination = 'C:\install\memreduct.ini'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download memreduct_setting 80%"
 $tls
-$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/memreduct80.ini'
+$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/memreduct80.ini'
 $destination = 'C:\install\memreduct80.ini'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 1
 #echo "Download settings firefox"
 $tls
-$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/firefox.reg'
+$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/firefox.reg'
 $destination = 'C:\install\firefox.reg'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 5
 #echo "Download reg settings visual effects and disable autoupdate winx64 2012r2"
 #$tls
-#$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/reg_settings.bat'
+#$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/reg_settings.bat'
 #$destination = 'C:\install\reg_settings.bat'
 #Invoke-WebRequest $source -OutFile $destination
 #Start-Sleep -Seconds 15
 #echo "Download setting downloads update script"
 $tls
-$source = 'https://raw.githubusercontent.com/R0ckNRolla/btt_setting/main/update_scheduler.bat'
+$source = 'https://raw.githubusercontent.com/akkaorig/btt_setting/main/update_scheduler.bat'
 $destination = 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\update_scheduler.bat'
 Invoke-WebRequest $source -OutFile $destination
 Start-Sleep -Seconds 5
@@ -303,10 +303,10 @@ Start-Sleep -Seconds 1
 Start-Sleep -Seconds 1
 #echo "run firefox"
 & 'C:\Program Files\Mozilla Firefox\firefox.exe' 
-Start-Sleep -Seconds 30
-& 'c:\install\bttAPI_duble.exe'
-echo "install wallet"
 Start-Sleep -Seconds 1
+& 'c:\install\bttAPI_duble.exe'
+#echo "install wallet"
+Start-Sleep -Seconds 30
 #echo "start script autorun"
 #start "" cmd /c "C:\Users\administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\script_autoran.bat"
 Start-Sleep -Seconds 30
@@ -320,6 +320,5 @@ Start-Sleep -Seconds 30
 #Start-Sleep -Seconds 5
 
 echo "INSTALL FINISH! GOOD LUCK!"
-Start-Sleep -Seconds 5
 
 shutdown -t 0 -r -f
